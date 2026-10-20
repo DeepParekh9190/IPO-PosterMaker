@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build output
+.next/
+out/
+dist/
+build/
+.vercel
+
+# Secrets and local env
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs and coverage
+*.log
+npm-debug.log*
+coverage/
+htmlcov/
+.coverage
+
+# Local IPO scrape cache (records + company logos)
+backend/data/ipo_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
